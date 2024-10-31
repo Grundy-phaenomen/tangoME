@@ -1,0 +1,6 @@
+#!/bin/sh
+. ./conf.sh
+
+# run the speed test
+echo $JAVA -jar $JAR RUN $AWS_KEY $AWS_SECRET $PREFIX $SUFFIX $ROUNDS $SIZE $METHOD
+$JAVA -jar $JAR RUN $AWS_KEY $AWS_SECRET $PREFIX $SUFFIX $ROUNDS $SIZE $METHOD
